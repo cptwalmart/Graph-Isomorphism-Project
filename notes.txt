@@ -1,0 +1,35 @@
+https://pdfs.semanticscholar.org/12e3/d2640d2a5255666a91d3fb1be20ccebdec69.pdf
+http://www.math.unl.edu/~aradcliffe1/Papers/Canonical.pdf
+https://ebookcentral.proquest.com/lib/salisbury/reader.action?docID=1901678
+http://eds.a.ebscohost.com.proxy-su.researchport.umd.edu/ehost/pdfviewer/pdfviewer?vid=1&sid=ac026238-cbca-49d3-927f-f0045be88371%40sessionmgr4006
+https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S0747717113001193
+https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/0022000079900436
+https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S074771711300093X
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.7741&rep=rep1&type=pdf
+
+
+Graph Isomorphism
+* If two graphs are look the same, but the number of verticies and edges are not the same, then it is not isomorphic.
+* If there is one to one maping function between the verticies then it called isomorphic.
+* If all properties of graph isomorphism are satisfied then two graphs are said to be isomorphic, else they are not.
+
+Properties of Graph Isormorphism:
+1) Number of verticies should be equal for each graph
+2) Number of edges should be equal for each graph
+3) In Degree and Out Degree should be equal
+4) Numbe of connected components should be the same
+5) Number of loops should be the same
+6) Number of parallel edges should be the same
+
+Examples of practical applications of graph isomorphism
+chemical structures
+social networks
+CAD
+Image Processing
+Protein structures
+Biometrics
+
+Real world applications of Isomorphic algorithms are actually quite fast and specialized
+
+Subgraph isomorphism is known to be NP-Complete
+(Will probably add as another algorithm)
