@@ -5,7 +5,7 @@ http://eds.a.ebscohost.com.proxy-su.researchport.umd.edu/ehost/pdfviewer/pdfview
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S0747717113001193
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/0022000079900436
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S074771711300093X
-https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S1875389212007249
+
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.7741&rep=rep1&type=pdf
 
 
@@ -34,3 +34,6 @@ Real world applications of Isomorphic algorithms are actually quite fast and spe
 
 Subgraph isomorphism is known to be NP-Complete
 (Will probably add as another algorithm)
+
+A partition method was proposed that sorted sequences of length-l path numbers, and divided cells of partition into 3 categories: not simliar, completely similar, simliar but not completely.
+https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S1875389212007249
