@@ -1,9 +1,12 @@
 Github Link https://github.com/cptwalmart/Graph-Isomorphism-Project
 
-A Comparative Study of Graph Isomorphism Applications
+A Comparative Study of Graph Isomorphism Applications [Somkunwar, Vaze]
 https://pdfs.semanticscholar.org/12e3/d2640d2a5255666a91d3fb1be20ccebdec69.pdf
 
-McKay’s Canonical Graph Labeling Algorithm
+Graph Isomorphism in Quasipolynomial Time [Babai]
+https://arxiv.org/pdf/1512.03547.pdf
+
+McKay’s Canonical Graph Labeling Algorithm [Hartke Radcliffe]
 http://www.math.unl.edu/~aradcliffe1/Papers/Canonical.pdf
 
 Most heuristic evidence points to the problem not being NP-Complete. There is further evidence that the problem of graph isomorphism is not NP complete, in that if it were the polynomial hierarchy would collapse.
@@ -14,6 +17,8 @@ According to this paper it is known ot have time complexity at most exp(O(n^(2/3
 
 There are general algorithms for GI which are "practical in practice." AKA they have a few worst case inputs that cause jaw dropping run times, but are fine for most input.
 
+Graph Isomorphism in Quasipolynomial time
+https://arxiv.org/pdf/1512.03547.pdf
 
 Graph Theory and Computing
 https://ebookcentral.proquest.com/lib/salisbury/reader.action?docID=1901678
@@ -32,9 +37,11 @@ https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/
 An Algorithm for Subgraph Isomorphism
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.7741&rep=rep1&type=pdf
 
+Ruducibility among combinatorial problems [Karp]
+http://cgi.di.uoa.gr/~sgk/teaching/grad/handouts/karp.pdf
 
-
-
+The graph isomorphism disease [Read Cornell]
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/jgt.3190010410
 
 Graph Isomorphism
 * If two graphs are look the same, but the number of verticies and edges are not the same, then it is not isomorphic.
