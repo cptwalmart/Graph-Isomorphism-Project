@@ -1,0 +1,25 @@
+COSC 320 Final Project Outline
+
+1) Introduction to Graph Isomorphism
+    • Definition of the term
+    • Properties there of
+    • Uses in the real world
+    • What is P, NP, NP-Complete, NP-Hard
+    • Terminology and mathematics that will be used
+
+2) History of the Algorithm
+    • Some of the previous algorithms
+    • Their run times
+    • Sub-problems of the algorithm
+    • The 2015 algorithm and its quasi-polynomial run time
+
+3)Significance of the problem and real world applications
+    • If possible some of the specific algorithms used in real life applications
+    • The different problems that use isomorphic graph mapping
+
+4) My algorithm and current research and the future of graph isomorphism.
+    • Talk about detail of my algorithm and why I chose to approach things the way I did
+    • Talk about other algorithms that exist for the problems
+    • General run time of the programs
+    • Any future ideas that I find relating to it
+5) Conclusions
