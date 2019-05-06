@@ -1,12 +1,39 @@
+Github Link https://github.com/cptwalmart/Graph-Isomorphism-Project
+
+A Comparative Study of Graph Isomorphism Applications
 https://pdfs.semanticscholar.org/12e3/d2640d2a5255666a91d3fb1be20ccebdec69.pdf
+
+McKay’s Canonical Graph Labeling Algorithm
 http://www.math.unl.edu/~aradcliffe1/Papers/Canonical.pdf
+
+Most heuristic evidence points to the problem not being NP-Complete. There is further evidence that the problem of graph isomorphism is not NP complete, in that if it were the polynomial hierarchy would collapse.
+
+GI is polynomial time for graphs of bounded degree, graphs of bounded genus, graphs of bounded eigenvalue multiplicity, and bounded treewidth. The problem of counting the number of isomorphisms between two graphs is Turing reducible to the graph inversion itself.
+
+According to this paper it is known ot have time complexity at most exp(O(n^(2/3))) for graphs with n verticies.
+
+There are general algorithms for GI which are "practical in practice." AKA they have a few worst case inputs that cause jaw dropping run times, but are fine for most input.
+
+
+Graph Theory and Computing
 https://ebookcentral.proquest.com/lib/salisbury/reader.action?docID=1901678
-http://eds.a.ebscohost.com.proxy-su.researchport.umd.edu/ehost/pdfviewer/pdfviewer?vid=1&sid=ac026238-cbca-49d3-927f-f0045be88371%40sessionmgr4006
+
+Finite automata, mathematical models of discrete time finite state system, can be represented by a finite sequence of directed graphs called transition graphs. Such graphs are studied from an algebraic point of view in terms of a natural representation of the graphs by linear transformations. Under this, the classical inveriants of linear transformation similarly become invariants of graphical isomorphism. This book goes to investigate to determine the extent which these invariants specify the structure (isomorphism class) of an arbitrary transition graph. [pg 123-124]
+
+Practical graph isomorphism, II
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S0747717113001193
+
+Graph isomorphism, general remarks
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/0022000079900436
+
+The Graph Isomorphism Problem and approximate categories
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S074771711300093X
 
+An Algorithm for Subgraph Isomorphism
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.361.7741&rep=rep1&type=pdf
+
+
+
 
 
 Graph Isomorphism
