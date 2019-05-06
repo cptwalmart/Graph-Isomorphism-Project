@@ -62,7 +62,7 @@ Efficent graph isomorphism algorithms are useful to Chemistry since molecules ca
 
 A function f from a class of objects A to the natural numbers is called a certificate with respect to some equivalence  relation ~= if for all G, G' in A, G ~= G' iff f(g) ~= f(G'). In the case that A is a set of incidence matricies and ~= is an isomorphism, then a computable f exists since we can simply enumerate all graphs and assign a number to each graph according to when it first appeared. So the interesting question to ask of a certificat is its computation complexity. We shall say that f is a deterministic certificate if f is a certificate and it is computable in polynomial time.
 
-If graph isomorphism has deterministic certificates, then graph isomorphism is in P. Thus deterministic certificates seems too strong a condition to prove existance for at the present time. If f is a certificate which is computable in nondeterministic polynomail time, then f is called a succinct certificate. [Graph Isomorphism General Remarks]
+If graph isomorphism has deterministic certificates, then graph isomorphism is in P. Thus deterministic certificates seems too strong a condition to prove existance for at the present time. If f is a certificate which is computable in nondeterministic polynomail time, then f is called a succinct certificate. [Graph Isomorphism General Remarks 137]
 
 Real world applications of Isomorphic algorithms are actually quite fast and specialized
 
