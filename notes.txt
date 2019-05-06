@@ -57,6 +57,13 @@ Image Processing
 Protein structures
 Biometrics
 
+Chemist's Problem
+Efficent graph isomorphism algorithms are useful to Chemistry since molecules can be viewed as a graph where the verticies are the atoms and edges are the bonds. A problem which arises is classifiying molecules; namely, we have a very large table of molecules and we are given some new molecule and asked whether or not it is in the list. Since the number of molecules is potentially exponential in the number of atoms per molecule, even a linear time isomorphism algorighm naively produces a potentally exponential search.
+
+A function f from a class of objects A to the natural numbers is called a certificate with respect to some equivalence  relation ~= if for all G, G' in A, G ~= G' iff f(g) ~= f(G'). In the case that A is a set of incidence matricies and ~= is an isomorphism, then a computable f exists since we can simply enumerate all graphs and assign a number to each graph according to when it first appeared. So the interesting question to ask of a certificat is its computation complexity. We shall say that f is a deterministic certificate if f is a certificate and it is computable in polynomial time.
+
+If graph isomorphism has deterministic certificates, then graph isomorphism is in P. Thus deterministic certificates seems too strong a condition to prove existance for at the present time. If f is a certificate which is computable in nondeterministic polynomail time, then f is called a succinct certificate. [Graph Isomorphism General Remarks]
+
 Real world applications of Isomorphic algorithms are actually quite fast and specialized
 
 Subgraph isomorphism is known to be NP-Complete
@@ -64,3 +71,8 @@ Subgraph isomorphism is known to be NP-Complete
 
 A partition method was proposed that sorted sequences of length-l path numbers, and divided cells of partition into 3 categories: not simliar, completely similar, simliar but not completely.
 https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/S1875389212007249
+
+
+Terminology
+Parallel edges- two or more edges that are incident to the same two verticies.
+In and Out Degree - For a vertex, the number of head ends adjacent to a vertex is called the indegree of the vertex and the number of tail ends adjacent to a vertex is its outdegree. (How many nodes point to it, and how many point out)
