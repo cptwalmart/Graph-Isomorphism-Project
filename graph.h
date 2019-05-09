@@ -29,6 +29,7 @@ class Graph
     int numEdges;
     std::map<int, int> inDegree;
     std::map<int, int> outDegree;
+    
 
   public:
     //default constructor
@@ -79,18 +80,22 @@ class Graph
             }
         }
     }*/
+    //Returns edge count
     int getEdgeCount()
     {
       return numEdges;
     }
+    //Returns vertex count
     int getVertCount()
     {
       return numVert;
     }
+    //returns indegree
     auto getInDegree()
     {
       return inDegree;
     }
+    //returns outdegree
     auto getOutDegree()
     {
       return outDegree;
