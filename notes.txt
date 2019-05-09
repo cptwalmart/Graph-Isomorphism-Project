@@ -52,7 +52,7 @@ Properties of Graph Isormorphism:
 1) Number of verticies should be equal for each graph
 2) Number of edges should be equal for each graph
 3) In Degree and Out Degree should be equal
-4) Numbe of connected components should be the same
+4) Number of connected components should be the same
 5) Number of loops should be the same
 6) Number of parallel edges should be the same
 
@@ -83,3 +83,6 @@ https://www-sciencedirect-com.proxy-su.researchport.umd.edu/science/article/pii/
 Terminology
 Parallel edges- two or more edges that are incident to the same two verticies.
 In and Out Degree - For a vertex, the number of head ends adjacent to a vertex is called the indegree of the vertex and the number of tail ends adjacent to a vertex is its outdegree. (How many nodes point to it, and how many point out)
+
+An Efficient Algorithm for Graph Isomorphism 
+https://www2.seas.gwu.edu/~simhaweb/iisc/Corneil.pdf
