@@ -1,6 +1,11 @@
 #ifndef MATRIX_H //Header protection
 #define MATRIX_H
-
+#include <iostream>
+#include <cstdlib>
+#include <chrono>
+#include <fstream>
+#include <string>
+#include <iomanip>
 class Matrix
 {
 public:
@@ -274,7 +279,7 @@ public:
    *
    * Reads in data from the given filename and stores it in this Matrix.
    */
-  void Matrix::MatrixInput(char *file)
+  /*void Matrix::MatrixInput(char *file)
   {
     int row = 0, col = 0;
     float num1;
@@ -328,9 +333,9 @@ public:
     {
       for (int j = 0; j < n_cols; j++)
       {
-        cout << this->mat[i][j] << " ";
+        std::cout << this->mat[i][j] << " ";
       }
-      cout << "\n";
+      std::cout << "\n";
     }
   }
   /**

@@ -4,6 +4,8 @@
 #include <queue>
 #include <map>
 #include <iostream>
+#include "matrix.h"
+
 enum color_t
 {
     GREY,
@@ -13,7 +15,7 @@ enum color_t
 
 class Graph
 {
-  private: /* will map an int to a list of its neighbors */
+private: /* will map an int to a list of its neighbors */
     std::map<int, std::vector<int>> vertices;
     bool directed;
     bool cyclic;
@@ -27,11 +29,13 @@ class Graph
     int timing;
     int numVert;
     int numEdges;
+    std::vector<bool> used;
+    std::vector<int> perm;
     std::map<int, int> inDegree;
     std::map<int, int> outDegree;
     
 
-  public:
+public:
     //default constructor
     Graph()
     {
@@ -44,8 +48,8 @@ class Graph
         discovery[0] = -1;
         finish[0] = -1;
         topSort.push_back(0);
-	numVert = 0;
-	numEdges = 0;
+        numVert = 0;
+        numEdges = 0;
     }
     //variable constructor
     Graph(bool set)
@@ -59,8 +63,8 @@ class Graph
         discovery[0] = -1;
         finish[0] = -1;
         topSort.push_back(0);
-	numVert = 0;
-	numEdges = 0;
+        numVert = 0;
+        numEdges = 0;
     }
     /*Graph(const Graph &p1)
     {
@@ -83,22 +87,22 @@ class Graph
     //Returns edge count
     int getEdgeCount()
     {
-      return numEdges;
+        return numEdges;
     }
     //Returns vertex count
     int getVertCount()
     {
-      return numVert;
+        return numVert;
     }
     //returns indegree
     auto getInDegree()
     {
-      return inDegree;
+        return inDegree;
     }
     //returns outdegree
     auto getOutDegree()
     {
-      return outDegree;
+        return outDegree;
     }
     //prints what kind of graph it is
     void graphType()
@@ -459,7 +463,71 @@ class Graph
             }
         }
     }
+    void setAdj(){
+        
+        for(int i = 0; i < numVert; i++){
+            for(int j = 0; j < numVert; j++){
+                if()
+            }
+        }
+    }
+    //Impementation of brute force algorithm
+    void A1(Graph G)
+    {
+        bool isomorphic = bruteForce(numVert - 1, G);
+        if (!isomorphic)
+            std::cout << "The graphs are isomorphic.";
+        else
+        {
+            std::cout << "The graphs are not isomorphic.";
+        }
+    }
 
-    
+    bool bruteForce(int level, Graph G)
+    {
+        bool result = true;
+        if (level = -1)
+        {
+            result = edgeCheck(G);
+        }
+        else
+        {
+            for (int k = 0; k < numVert; k++)
+                used[k] = false;
+            int i = 0;
+            while ((i < numVert) && (result = true))
+            {
+                if (used[i] = false)
+                {
+                    used[i] = true;
+                    perm[level] = i;
+                    result = bruteForce(level - 1, G);
+                    used[i] = false;
+                }
+                i++;
+            }
+        }
+        return result;
+    }
+
+    bool edgeCheck(Graph G)
+    {
+        Matrix adj_matrix1[numVert][numVert];
+        Matrix adj_matrix2[numVert][numVert];
+        adj_matrix1.setAdj();
+        
+        bool diff = false;
+        for (int i = 0; i < numVert - 1; i++)
+        {
+            int y = 0;
+            while ((y < numVert) && (diff = false))
+            {
+                if (adj_matrix1[x][y] != adj_matrix2[perm[x][perm[y]]])
+                    diff = true;
+                y++;
+            }
+        }
+        return diff;
+    }
 };
 #endif
