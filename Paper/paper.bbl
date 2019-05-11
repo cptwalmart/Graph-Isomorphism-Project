@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{derksen}
+Harm Derksen.
+\newblock The graph isomorphism problem and approximate categories.
+\newblock {\em Journal of Symbolic Computation}, 59:81 -- 112, 2013.
+
+\bibitem{hartke}
+Stephen G.~Hartke and Andrew Radcliffe.
+\newblock Mckay’s canonical graph labeling algorithm.
+\newblock {\em Contemporary Mathematics book series}, 479, 02 2013.
+
+\bibitem{miller}
+Gary~L. Miller.
+\newblock Graph isomorphism, general remarks.
+\newblock {\em Journal of Computer and System Sciences}, 18(2):128 -- 142,
+  1979.
+
+\end{thebibliography}
