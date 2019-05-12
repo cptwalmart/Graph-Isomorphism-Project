@@ -29,8 +29,8 @@ private: /* will map an int to a list of its neighbors */
     int timing;
     int numVert;
     int numEdges;
-    std::vector<bool> perm;
-    std::vector<int> used;
+    std::vector<int> perm;
+    std::vector<bool> used;
     std::map<int, int> inDegree;
     std::map<int, int> outDegree;
 
