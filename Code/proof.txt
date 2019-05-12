@@ -1,0 +1,10082 @@
+
+Testing edge violation~ 
+
+This is in violation of the edge property of graph isomorphism!
+
+Testing vertex violation~ 
+
+There is in violation of the vertex propertry of graph isomorphism!
+
+Testing identical graphs~ 
+
+Printing adj matrix 1 
+01
+10
+
+Printing adj matrix 2: 
+01
+10
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+The graphs are isomorphic, because they're the same graph.
+Testing isomorphism on a very connected graph with 4 nodes.
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+result for inside loop3 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+Inner loop of edge check, sanity check, x: 2 y: 4
+Inner loop of edge check, sanity check, x: 3 y: 0
+Inner loop of edge check, sanity check, x: 3 y: 1
+Inner loop of edge check, sanity check, x: 3 y: 2
+Inner loop of edge check, sanity check, x: 3 y: 3
+Inner loop of edge check, sanity check, x: 3 y: 4
+result for level-1 true
+result for inside loop0 true
+result for inside loop1 true
+result for inside loop2 true
+result for inside loop3 true
+result for inside loop4 true
+The graphs are isomorphic.
+
+Testing edge violation~ 
+
+This is in violation of the edge property of graph isomorphism!
+
+Testing vertex violation~ 
+
+There is in violation of the vertex propertry of graph isomorphism!
+
+Testing identical graphs~ 
+
+Printing adj matrix 1 
+01
+10
+
+Printing adj matrix 2: 
+01
+10
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+The graphs are isomorphic, because they're the same graph.
+Testing isomorphism on a very connected graph with 4 nodes.
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+0
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+1
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+2
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+3
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+4
+0
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+result for inside loop3 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+0
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+4
+1
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+result for inside loop2 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+0
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+1
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+2
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+result for inside loop1 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+0
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+1
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+2
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+3
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+result for inside loop0 false
+Printing adj matrix 1 
+01000
+10100
+01010
+00100
+00000
+
+Printing adj matrix 2: 
+00000
+00100
+01010
+00101
+00010
+
+ printing perm:
+4
+3
+2
+1
+0
+
+Inner loop of edge check, sanity check, x: 0 y: 0
+Inner loop of edge check, sanity check, x: 0 y: 1
+Inner loop of edge check, sanity check, x: 0 y: 2
+Inner loop of edge check, sanity check, x: 0 y: 3
+Inner loop of edge check, sanity check, x: 0 y: 4
+Inner loop of edge check, sanity check, x: 1 y: 0
+Inner loop of edge check, sanity check, x: 1 y: 1
+Inner loop of edge check, sanity check, x: 1 y: 2
+Inner loop of edge check, sanity check, x: 1 y: 3
+Inner loop of edge check, sanity check, x: 1 y: 4
+Inner loop of edge check, sanity check, x: 2 y: 0
+Inner loop of edge check, sanity check, x: 2 y: 1
+Inner loop of edge check, sanity check, x: 2 y: 2
+Inner loop of edge check, sanity check, x: 2 y: 3
+Inner loop of edge check, sanity check, x: 2 y: 4
+Inner loop of edge check, sanity check, x: 3 y: 0
+Inner loop of edge check, sanity check, x: 3 y: 1
+Inner loop of edge check, sanity check, x: 3 y: 2
+Inner loop of edge check, sanity check, x: 3 y: 3
+Inner loop of edge check, sanity check, x: 3 y: 4
+result for level-1 true
+result for inside loop0 true
+result for inside loop1 true
+result for inside loop2 true
+result for inside loop3 true
+result for inside loop4 true
+The graphs are isomorphic.

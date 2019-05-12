@@ -1,0 +1,100 @@
+Testing isomorphism on a graph with 6 nodes, 3 edges
+The graphs are isomorphic.
+elapsed time: 0.0193645s
+
+Testing isomorphism on a graph with 7 nodes, 6 edges
+The graphs are isomorphic.
+elapsed time: 0.183214s
+
+Testing isomorphism on a graph with 6 nodes, 1 edges
+elapsed time: 1.9127e-05s
+
+Testing isomorphism on a graph with 8 nodes, 4 edges
+elapsed time: 9.439e-06s
+
+Testing isomorphism on a graph with 7 nodes, 4 edges
+elapsed time: 8.459e-06s
+
+Testing isomorphism on a graph with 6 nodes, 5 edges
+elapsed time: 8.533e-06s
+
+Testing isomorphism on a graph with 6 nodes, 3 edges
+The graphs are isomorphic.
+elapsed time: 0.0179064s
+
+Testing isomorphism on a graph with 7 nodes, 6 edges
+The graphs are isomorphic.
+elapsed time: 0.183177s
+
+Testing isomorphism on a graph with 6 nodes, 1 edges
+elapsed time: 3.0084e-05s
+
+Testing isomorphism on a graph with 8 nodes, 4 edges
+elapsed time: 9.612e-06s
+
+Testing isomorphism on a graph with 7 nodes, 4 edges
+elapsed time: 8.295e-06s
+
+Testing isomorphism on a graph with 6 nodes, 5 edges
+elapsed time: 8.495e-06s
+
+Testing isomorphism on a graph with 6 nodes, 3 edges
+The graphs are isomorphic.
+elapsed time: 0.0178582s
+
+Testing isomorphism on a graph with 7 nodes, 6 edges
+The graphs are isomorphic.
+elapsed time: 0.183872s
+
+Testing isomorphism on a graph with 6 nodes, 1 edges
+elapsed time: 1.91e-05s
+
+Testing isomorphism on a graph with 8 nodes, 4 edges
+elapsed time: 9.559e-06s
+
+Testing isomorphism on a graph with 7 nodes, 4 edges
+elapsed time: 8.797e-06s
+
+Testing isomorphism on a graph with 6 nodes, 5 edges
+elapsed time: 8.436e-06s
+
+Testing isomorphism on a graph with 6 nodes, 3 edges
+The graphs are isomorphic.
+elapsed time: 0.0190612s
+
+Testing isomorphism on a graph with 7 nodes, 6 edges
+The graphs are isomorphic.
+elapsed time: 0.183494s
+
+Testing isomorphism on a graph with 6 nodes, 1 edges
+elapsed time: 1.7163e-05s
+
+Testing isomorphism on a graph with 8 nodes, 4 edges
+elapsed time: 9.224e-06s
+
+Testing isomorphism on a graph with 7 nodes, 4 edges
+elapsed time: 8.498e-06s
+
+Testing isomorphism on a graph with 6 nodes, 5 edges
+elapsed time: 8.463e-06s
+
+Testing isomorphism on a graph with 6 nodes, 3 edges
+The graphs are isomorphic.
+elapsed time: 0.0192287s
+
+Testing isomorphism on a graph with 7 nodes, 6 edges
+The graphs are isomorphic.
+elapsed time: 0.184481s
+
+Testing isomorphism on a graph with 6 nodes, 1 edges
+elapsed time: 3.042e-05s
+
+Testing isomorphism on a graph with 8 nodes, 4 edges
+elapsed time: 9.49e-06s
+
+Testing isomorphism on a graph with 7 nodes, 4 edges
+elapsed time: 8.378e-06s
+
+Testing isomorphism on a graph with 6 nodes, 5 edges
+elapsed time: 8.435e-06s
+
