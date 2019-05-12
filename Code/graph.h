@@ -495,7 +495,7 @@ public:
 
     bool bruteForce(int level, Graph G)
     {
-        bool result = true;
+        bool result = false;
         if (level == -1)
         {
             result = edgeCheck(G);
@@ -509,7 +509,7 @@ public:
             for (int k = 0; k < this->numVert; k++)
                 this->used[k] = false;
             int i = 0;
-            while ((i < numVert) && result)
+            while ((i < numVert) && !result)
             {
                 if (!used[i])
                 {
@@ -654,6 +654,147 @@ public:
         else if (this->numEdges != G.getEdgeCount())
         {
             std::cout << "This is in violation of the edge property of graph isomorphism!\n";
+            return false;
+        }
+        else
+            return true;
+    }
+
+    //Impementation of brute force algorithm without a print
+    void A1NP(Graph G)
+    {
+        used = std::vector<bool>(numVert);
+        perm = std::vector<int>(numVert);
+        //Sanity checks isomorphism properties
+        bool sanity = sanCheckNP(G);
+        if (!sanity)
+        {
+            return;
+        }
+        //Checks base case where the two graphs are identicle
+        bool isomorphic = edgeEdgeCheckNP(G);
+        if (isomorphic)
+        {
+            return;
+        }
+        isomorphic = bruteForceNP(numVert - 1, G);
+        if (isomorphic)
+            std::cout << "The graphs are isomorphic.\n";
+        else
+        {
+            std::cout << "The graphs are not isomorphic.\n";
+        }
+    }
+    //without a print
+    bool bruteForceNP(int level, Graph G)
+    {
+        bool result = false;
+        if (level == -1)
+        {
+            result = edgeCheckNP(G);
+            if (!result)
+                return result;
+        }
+        else
+        {
+            for (int k = 0; k < this->numVert; k++)
+                this->used[k] = false;
+            int i = 0;
+            while ((i < numVert) && !result)
+            {
+                if (!used[i])
+                {
+                    this->used[i] = true;
+                    this->perm[level] = i;
+                    result = bruteForceNP(level - 1, G);
+                    this->used[i] = false;
+                }
+                i++;
+            }
+        }
+        return result;
+    }
+
+    bool edgeCheckNP(Graph G)
+    {
+        int adj_matrix1[this->numVert][this->numVert];
+        int adj_matrix2[this->numVert][this->numVert];
+        for (int i = 0; i < this->numVert; i++)
+        {
+            for (int j = 0; j < numVert; j++)
+            {
+                adj_matrix1[i][j] = 0;
+                adj_matrix2[i][j] = 0;
+            }
+        }
+        for (auto it = G.vertices.cbegin(); it != G.vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix1[it->first][*it2] = 1;
+        }
+        for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix2[it->first][*it2] = 1;
+        }
+        bool same = true;
+        for (int x = 0; x < (this->numVert - 1); x++)
+        {
+            int y = 0;
+            while ((y < numVert) && same)
+            {
+                if (adj_matrix1[x][y] != adj_matrix2[this->perm[x]][this->perm[y]])
+                    same = false;
+                y++;
+            }
+        }
+        return same;
+    }
+    //checks to see if graph is identical to itself
+    bool edgeEdgeCheckNP(Graph G)
+    {
+        int adj_matrix1[this->numVert][this->numVert];
+        int adj_matrix2[this->numVert][this->numVert];
+        for (int i = 0; i < this->numVert; i++)
+        {
+            for (int j = 0; j < numVert; j++)
+            {
+                adj_matrix1[i][j] = 0;
+                adj_matrix2[i][j] = 0;
+            }
+        }
+        for (auto it = G.vertices.cbegin(); it != G.vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix1[it->first][*it2] = 1;
+        }
+        for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix2[it->first][*it2] = 1;
+        }
+        bool same = true;
+        for (int x = 0; x < (this->numVert - 1); x++)
+        {
+            int y = 0;
+            while ((y < numVert) && same)
+            {
+                if (adj_matrix1[x][y] != adj_matrix2[x][y])
+                    same = false;
+                y++;
+            }
+        }
+        return same;
+    }
+    //small sanity check function based on first 2 properties of graph isomorphism
+    bool sanCheckNP(Graph G)
+    {
+        if (this->numVert != G.getVertCount())
+        {
+            return false;
+        }
+        else if (this->numEdges != G.getEdgeCount())
+        {
             return false;
         }
         else

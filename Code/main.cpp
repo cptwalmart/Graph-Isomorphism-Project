@@ -46,19 +46,21 @@ int main()
     test4.A1(test4);
 
     Graph test6(false);
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 5; i++)
         test6.addVertex(i);
-    for (int i = 1; i < 2; i++)
+    for (int i = 1; i < 4; i++)
         test6.addEdge(i, i+1);
     
     Graph test7(false);
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 5; i++)
         test7.addVertex(i);
-    for (int i = 1; i < 2; i++)
+    for (int i = 1; i < 4; i++)
         test7.addEdge(i-1, i);
 
     std::cout << "Testing isomorphism on a very connected graph with 4 nodes."<<std::endl;
     test6.A1(test7);
+
+    test6.A1NP(test7);
     
     return 0;
 }
