@@ -469,6 +469,8 @@ public:
     //Impementation of brute force algorithm
     void A1(Graph G)
     {
+        used = std::vector<bool>(numVert);
+        perm = std::vector<int>(numVert);
         //Sanity checks isomorphism properties
         bool sanity = sanCheck(G);
         if (!sanity)
