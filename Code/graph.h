@@ -4,6 +4,7 @@
 #include <queue>
 #include <map>
 #include <iostream>
+#include <stdio.h>
 //#include "matrix.h"
 
 enum color_t
@@ -135,12 +136,12 @@ public:
 
         if (search == vertices.end())
         {
-            std::cout << "Vertex" << v1 <<" DNE \n";
+            std::cout << "Vertex" << v1 << " DNE \n";
             return;
         }
         else if (search2 == vertices.end())
         {
-            std::cout << "Vertex" << v2 <<" DNE \n";
+            std::cout << "Vertex" << v2 << " DNE \n";
             return;
         }
         else
@@ -468,39 +469,53 @@ public:
     //Impementation of brute force algorithm
     void A1(Graph G)
     {
-        used = std::vector<bool>(numVert);
-	perm = std::vector<int>(numVert);
-        bool isomorphic = bruteForce(numVert - 1, G);
+        //Sanity checks isomorphism properties
+        bool sanity = sanCheck(G);
+        if (!sanity)
+        {
+            return;
+        }
+        //Checks base case where the two graphs are identicle
+        bool isomorphic = edgeEdgeCheck(G);
         if (isomorphic)
-            std::cout << "The graphs are isomorphic.";
+        {
+            std::cout << "The graphs are isomorphic, because they're the same graph.\n";
+            return;
+        }
+        isomorphic = bruteForce(numVert - 1, G);
+        if (isomorphic)
+            std::cout << "The graphs are isomorphic.\n";
         else
         {
-            std::cout << "The graphs are not isomorphic.";
+            std::cout << "The graphs are not isomorphic.\n";
         }
     }
 
     bool bruteForce(int level, Graph G)
     {
-        bool result = false;
-        std::cout << "level:"<< level << std::endl;
+        bool result = true;
         if (level == -1)
         {
             result = edgeCheck(G);
+            if (!result)
+                return result;
+            std::cout << "result for level" << level << " ";
+            printf("%s\n", result ? "true" : "false");
         }
         else
         {
             for (int k = 0; k < this->numVert; k++)
                 this->used[k] = false;
             int i = 0;
-            while ((i < numVert) && !result)
+            while ((i < numVert) && result)
             {
                 if (!used[i])
                 {
                     this->used[i] = true;
                     this->perm[level] = i;
                     result = bruteForce(level - 1, G);
-                    std::cout << "perm[level]:"<< this->perm[level] << std::endl;
-                    std::cout << "result:"<< result << std::endl;
+                    std::cout << "result for inside loop" << level << " ";
+                    printf("%s\n", result ? "true" : "false");
                     this->used[i] = false;
                 }
                 i++;
@@ -531,34 +546,116 @@ public:
             for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
                 adj_matrix2[it->first][*it2] = 1;
         }
-        std::cout<<"testing adj matrixes: matrix 1\n";
+        std::cout << "Printing adj matrix 1 \n";
         for (int i = 0; i < this->numVert; i++)
         {
             for (int j = 0; j < numVert; j++)
             {
-                std::cout<<adj_matrix1[i][j]<<std::endl;
+                std::cout << adj_matrix1[i][j];
             }
+            std::cout << std::endl;
         }
-        std::cout<<"\n matrix 2\n";
+        std::cout << "\nPrinting adj matrix 2: \n";
         for (int i = 0; i < this->numVert; i++)
         {
             for (int j = 0; j < numVert; j++)
             {
-                std::cout<<adj_matrix2[i][j]<<std::endl;
+                std::cout << adj_matrix2[i][j];
             }
+            std::cout << std::endl;
         }
-        bool diff = false;
-        for (int x = 0; x < this->numVert - 1; x++)
+        std::cout << "\n printing perm:\n";
+        for (int i = 0; i < this->numVert; i++)
+        {
+            std::cout << this->perm[i];
+            std::cout << std::endl;
+        }
+        std::cout << "\n";
+        bool same = true;
+        for (int x = 0; x < (this->numVert - 1); x++)
         {
             int y = 0;
-            while ((y < numVert) && !diff)
+            while ((y < numVert) && same)
             {
+                printf("Inner loop of edge check, sanity check, x: %d y: %d\n", x, y);
                 if (adj_matrix1[x][y] != adj_matrix2[this->perm[x]][this->perm[y]])
-                    diff = true;
+                    same = false;
                 y++;
             }
         }
-        return diff;
+        return same;
+    }
+    //checks to see if graph is identical to itself
+    bool edgeEdgeCheck(Graph G)
+    {
+        int adj_matrix1[this->numVert][this->numVert];
+        int adj_matrix2[this->numVert][this->numVert];
+        for (int i = 0; i < this->numVert; i++)
+        {
+            for (int j = 0; j < numVert; j++)
+            {
+                adj_matrix1[i][j] = 0;
+                adj_matrix2[i][j] = 0;
+            }
+        }
+        for (auto it = G.vertices.cbegin(); it != G.vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix1[it->first][*it2] = 1;
+        }
+        for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix2[it->first][*it2] = 1;
+        }
+        std::cout << "Printing adj matrix 1 \n";
+        for (int i = 0; i < this->numVert; i++)
+        {
+            for (int j = 0; j < numVert; j++)
+            {
+                std::cout << adj_matrix1[i][j];
+            }
+            std::cout << std::endl;
+        }
+        std::cout << "\nPrinting adj matrix 2: \n";
+        for (int i = 0; i < this->numVert; i++)
+        {
+            for (int j = 0; j < numVert; j++)
+            {
+                std::cout << adj_matrix2[i][j];
+            }
+            std::cout << std::endl;
+        }
+        std::cout << "\n";
+        bool same = true;
+        for (int x = 0; x < (this->numVert - 1); x++)
+        {
+            int y = 0;
+            while ((y < numVert) && same)
+            {
+                printf("Inner loop of edge check, sanity check, x: %d y: %d\n", x, y);
+                if (adj_matrix1[x][y] != adj_matrix2[x][y])
+                    same = false;
+                y++;
+            }
+        }
+        return same;
+    }
+    //small sanity check function based on first 2 properties of graph isomorphism
+    bool sanCheck(Graph G)
+    {
+        if (this->numVert != G.getVertCount())
+        {
+            std::cout << "There is in violation of the vertex propertry of graph isomorphism!\n";
+            return false;
+        }
+        else if (this->numEdges != G.getEdgeCount())
+        {
+            std::cout << "This is in violation of the edge property of graph isomorphism!\n";
+            return false;
+        }
+        else
+            return true;
     }
 };
 #endif
