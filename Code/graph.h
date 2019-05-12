@@ -4,7 +4,7 @@
 #include <queue>
 #include <map>
 #include <iostream>
-#include "matrix.h"
+//#include "matrix.h"
 
 enum color_t
 {
@@ -33,7 +33,6 @@ private: /* will map an int to a list of its neighbors */
     std::vector<int> perm;
     std::map<int, int> inDegree;
     std::map<int, int> outDegree;
-    
 
 public:
     //default constructor
@@ -463,11 +462,14 @@ public:
             }
         }
     }
-    void setAdj(){
-        
-        for(int i = 0; i < numVert; i++){
-            for(int j = 0; j < numVert; j++){
-                if()
+    void setAdj()
+    {
+
+        for (int i = 0; i < numVert; i++)
+        {
+            for (int j = 0; j < numVert; j++)
+            {
+                if ()
             }
         }
     }
@@ -512,10 +514,15 @@ public:
 
     bool edgeCheck(Graph G)
     {
-        Matrix adj_matrix1[numVert][numVert];
-        Matrix adj_matrix2[numVert][numVert];
-        adj_matrix1.setAdj();
-        
+        int adj_matrix1[numVert][numVert];
+        int adj_matrix2[numVert][numVert];
+        for (int i = 0; i < numVert; i++)
+        {
+            for (int j = 0; j < numVert; i++)
+            {
+                if()
+            }
+        }
         bool diff = false;
         for (int i = 0; i < numVert - 1; i++)
         {

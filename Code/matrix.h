@@ -6,6 +6,7 @@
 #include <fstream>
 #include <string>
 #include <iomanip>
+#include "graph.h"
 class Matrix
 {
 public:
