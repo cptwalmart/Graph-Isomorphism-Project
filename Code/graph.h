@@ -124,6 +124,7 @@ public:
         else
         {
             vertices.insert(std::pair<int, std::vector<int>>(key, 0));
+            numVert++;
         }
     }
     // add a directed or undirected edge to the graphprint();
@@ -134,12 +135,12 @@ public:
 
         if (search == vertices.end())
         {
-            std::cout << "Vertex 1 DNE \n";
+            std::cout << "Vertex" << v1 <<" DNE \n";
             return;
         }
         else if (search2 == vertices.end())
         {
-            std::cout << "Vertex 2 DNE \n";
+            std::cout << "Vertex" << v2 <<" DNE \n";
             return;
         }
         else
@@ -158,10 +159,12 @@ public:
             {
                 vertices[v1].push_back(v2);
                 vertices[v2].push_back(v1);
+                numEdges++;
             }
             else if (directed == true)
             {
                 vertices[v1].push_back(v2);
+                numEdges++;
             }
             //error checking
             else
@@ -462,22 +465,11 @@ public:
             }
         }
     }
-    void setAdj()
-    {
-
-        for (int i = 0; i < numVert; i++)
-        {
-            for (int j = 0; j < numVert; j++)
-            {
-                if ()
-            }
-        }
-    }
     //Impementation of brute force algorithm
     void A1(Graph G)
     {
         bool isomorphic = bruteForce(numVert - 1, G);
-        if (!isomorphic)
+        if (isomorphic)
             std::cout << "The graphs are isomorphic.";
         else
         {
@@ -488,7 +480,7 @@ public:
     bool bruteForce(int level, Graph G)
     {
         bool result = false;
-        if (level = -1)
+        if (level == -1)
         {
             result = edgeCheck(G);
         }
@@ -520,19 +512,34 @@ public:
         {
             for (int j = 0; j < numVert; i++)
             {
-                adj_matrix1[i][j]=0;
-                adj_matrix2[i][j]=0;
+                adj_matrix1[i][j] = 0;
+                adj_matrix2[i][j] = 0;
             }
         }
+        for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix1[it->first][*it2] = 1;
+        }
+        for (auto it = G.vertices.cbegin(); it != G.vertices.cend(); ++it)
+        {
+            for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                adj_matrix2[it->first][*it2] = 1;
+        }
+        std::cout<<"testing adj matrixes: matrix 1\n";
         for (int i = 0; i < numVert; i++)
         {
             for (int j = 0; j < numVert; i++)
             {
-              for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
-                {
-                    for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
-                        adj_matrix1[i][j]=*it2;
-                }
+                std::cout<<adj_matrix1[i][j]<<std::endl;
+            }
+        }
+        std::cout<<"\n matrix 2\n";
+        for (int i = 0; i < numVert; i++)
+        {
+            for (int j = 0; j < numVert; i++)
+            {
+                std::cout<<adj_matrix2[i][j]<<std::endl;
             }
         }
         bool diff = false;
