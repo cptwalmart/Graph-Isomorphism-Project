@@ -479,6 +479,7 @@ public:
 
     bool bruteForce(int level, Graph G)
     {
+        used = std::vector<bool>(numVert);
         bool result = false;
         if (level == -1)
         {
