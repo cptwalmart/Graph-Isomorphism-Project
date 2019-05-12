@@ -468,6 +468,8 @@ public:
     //Impementation of brute force algorithm
     void A1(Graph G)
     {
+        used = std::vector<bool>(numVert);
+	perm = std::vector<int>(numVert);
         bool isomorphic = bruteForce(numVert - 1, G);
         if (isomorphic)
             std::cout << "The graphs are isomorphic.";
@@ -479,7 +481,6 @@ public:
 
     bool bruteForce(int level, Graph G)
     {
-        used = std::vector<bool>(numVert);
         bool result = false;
         if (level == -1)
         {
@@ -490,9 +491,9 @@ public:
             for (int k = 0; k < numVert; k++)
                 used[k] = false;
             int i = 0;
-            while ((i < numVert) && (result = false))
+            while ((i < numVert) && !result)
             {
-                if (used[i] = false)
+                if (!used[i])
                 {
                     used[i] = true;
                     perm[level] = i;
@@ -511,7 +512,7 @@ public:
         int adj_matrix2[numVert][numVert];
         for (int i = 0; i < numVert; i++)
         {
-            for (int j = 0; j < numVert; i++)
+            for (int j = 0; j < numVert; j++)
             {
                 adj_matrix1[i][j] = 0;
                 adj_matrix2[i][j] = 0;
@@ -530,7 +531,7 @@ public:
         std::cout<<"testing adj matrixes: matrix 1\n";
         for (int i = 0; i < numVert; i++)
         {
-            for (int j = 0; j < numVert; i++)
+            for (int j = 0; j < numVert; j++)
             {
                 std::cout<<adj_matrix1[i][j]<<std::endl;
             }
@@ -538,7 +539,7 @@ public:
         std::cout<<"\n matrix 2\n";
         for (int i = 0; i < numVert; i++)
         {
-            for (int j = 0; j < numVert; i++)
+            for (int j = 0; j < numVert; j++)
             {
                 std::cout<<adj_matrix2[i][j]<<std::endl;
             }
@@ -547,7 +548,7 @@ public:
         for (int x = 0; x < numVert - 1; x++)
         {
             int y = 0;
-            while ((y < numVert) && (diff = false))
+            while ((y < numVert) && !diff)
             {
                 if (adj_matrix1[x][y] != adj_matrix2[perm[x]][perm[y]])
                     diff = true;
