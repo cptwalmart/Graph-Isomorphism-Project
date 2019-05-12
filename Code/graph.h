@@ -487,7 +487,7 @@ public:
 
     bool bruteForce(int level, Graph G)
     {
-        bool result = true;
+        bool result = false;
         if (level = -1)
         {
             result = edgeCheck(G);
@@ -497,7 +497,7 @@ public:
             for (int k = 0; k < numVert; k++)
                 used[k] = false;
             int i = 0;
-            while ((i < numVert) && (result = true))
+            while ((i < numVert) && (result = false))
             {
                 if (used[i] = false)
                 {
@@ -520,16 +520,28 @@ public:
         {
             for (int j = 0; j < numVert; i++)
             {
-                if()
+                adj_matrix1[i][j]=0;
+                adj_matrix2[i][j]=0;
+            }
+        }
+        for (int i = 0; i < numVert; i++)
+        {
+            for (int j = 0; j < numVert; i++)
+            {
+              for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
+                {
+                    for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
+                        adj_matrix1[i][j]=*it2;
+                }
             }
         }
         bool diff = false;
-        for (int i = 0; i < numVert - 1; i++)
+        for (int x = 0; x < numVert - 1; x++)
         {
             int y = 0;
             while ((y < numVert) && (diff = false))
             {
-                if (adj_matrix1[x][y] != adj_matrix2[perm[x][perm[y]]])
+                if (adj_matrix1[x][y] != adj_matrix2[perm[x]][perm[y]])
                     diff = true;
                 y++;
             }

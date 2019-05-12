@@ -16,4 +16,15 @@ Gary~L. Miller.
 \newblock {\em Journal of Computer and System Sciences}, 18(2):128 -- 142,
   1979.
 
+\bibitem{read}
+Ronald~C. Read and Derek~G. Corneil.
+\newblock The graph isomorphism disease.
+\newblock {\em Journal of Graph Theory}, 1(4):339--363, 1977.
+
+\bibitem{tolley}
+Robert~W.; Tolley, Tracy R.;~Franceschini and Mikel~D. Petty.
+\newblock "graph isomorphism algorithms: Investigation of the graph isomorphism
+  problem".
+\newblock Technical report, Institute for Simulation and Training., 1995.
+
 \end{thebibliography}
