@@ -29,8 +29,8 @@ private: /* will map an int to a list of its neighbors */
     int timing;
     int numVert;
     int numEdges;
-    std::vector<bool> used;
-    std::vector<int> perm;
+    std::vector<bool> perm;
+    std::vector<int> used;
     std::map<int, int> inDegree;
     std::map<int, int> outDegree;
 
@@ -482,23 +482,26 @@ public:
     bool bruteForce(int level, Graph G)
     {
         bool result = false;
+        std::cout << "level:"<< level << std::endl;
         if (level == -1)
         {
             result = edgeCheck(G);
         }
         else
         {
-            for (int k = 0; k < numVert; k++)
-                used[k] = false;
+            for (int k = 0; k < this->numVert; k++)
+                this->used[k] = false;
             int i = 0;
             while ((i < numVert) && !result)
             {
                 if (!used[i])
                 {
-                    used[i] = true;
-                    perm[level] = i;
+                    this->used[i] = true;
+                    this->perm[level] = i;
                     result = bruteForce(level - 1, G);
-                    used[i] = false;
+                    std::cout << "perm[level]:"<< this->perm[level] << std::endl;
+                    std::cout << "result:"<< result << std::endl;
+                    this->used[i] = false;
                 }
                 i++;
             }
@@ -508,9 +511,9 @@ public:
 
     bool edgeCheck(Graph G)
     {
-        int adj_matrix1[numVert][numVert];
-        int adj_matrix2[numVert][numVert];
-        for (int i = 0; i < numVert; i++)
+        int adj_matrix1[this->numVert][this->numVert];
+        int adj_matrix2[this->numVert][this->numVert];
+        for (int i = 0; i < this->numVert; i++)
         {
             for (int j = 0; j < numVert; j++)
             {
@@ -518,18 +521,18 @@ public:
                 adj_matrix2[i][j] = 0;
             }
         }
-        for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
+        for (auto it = G.vertices.cbegin(); it != G.vertices.cend(); ++it)
         {
             for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
                 adj_matrix1[it->first][*it2] = 1;
         }
-        for (auto it = G.vertices.cbegin(); it != G.vertices.cend(); ++it)
+        for (auto it = vertices.cbegin(); it != vertices.cend(); ++it)
         {
             for (auto it2 = it->second.begin(); it2 != it->second.end(); ++it2)
                 adj_matrix2[it->first][*it2] = 1;
         }
         std::cout<<"testing adj matrixes: matrix 1\n";
-        for (int i = 0; i < numVert; i++)
+        for (int i = 0; i < this->numVert; i++)
         {
             for (int j = 0; j < numVert; j++)
             {
@@ -537,7 +540,7 @@ public:
             }
         }
         std::cout<<"\n matrix 2\n";
-        for (int i = 0; i < numVert; i++)
+        for (int i = 0; i < this->numVert; i++)
         {
             for (int j = 0; j < numVert; j++)
             {
@@ -545,12 +548,12 @@ public:
             }
         }
         bool diff = false;
-        for (int x = 0; x < numVert - 1; x++)
+        for (int x = 0; x < this->numVert - 1; x++)
         {
             int y = 0;
             while ((y < numVert) && !diff)
             {
-                if (adj_matrix1[x][y] != adj_matrix2[perm[x]][perm[y]])
+                if (adj_matrix1[x][y] != adj_matrix2[this->perm[x]][this->perm[y]])
                     diff = true;
                 y++;
             }
