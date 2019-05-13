@@ -71,7 +71,7 @@ It is not known (as of this paper)if graph isomorphism satisfies any of the abov
 \section*{The Algorithms}
 In researching graph isomorphism, I discovered that there is a multitude of different facets of the graph isomorphism problem, and I was overwhelmed with the plethora of options out there for me to research, so I ended up taking a bit of a shotgun approach, studying graph isomorphism as a broad topic, then diving deeper into some of the sub problems that come as a result of graph isomorphism. I read in one of the papers that graph isomorphism gained so much popularity within the computer science fields when it was first being researched that it was even referred to as the "four-color disease".~\cite{read}
 
-So my research eventually lead me to the following brute force algorithm. From the paper I read on the topic, it looks like they made an incorrect note in their pseudocode, and as such I have fixed that for this paper.
+So my research eventually lead me to the following brute force algorithm. Included is the unaltered version of their algorithm, later on I will show my changes.
 
 So a brute force algorithm for graph isomorphism, is exponential in the amount of time it takes to process. The following algorithm has a run time of $O(N^{2}-N!)$ where n is the number of vertices in the two graphs we test on. The procedure is simple, enumerate and test all permutations of the vertices of one of the two graphs(in this case graph 2), until an isomorphism mapping is found. If it exhausts every possible permutation then the two graphs are not isomorphic. Notes for the following algorithms, the boolean array 'used' marks which vertices have been mapped. The array perm records the vertex mapping. For all $V\in$G1, perm[x] contains the label of the mapped vertexes in G2.~\cite{tolley}
 
@@ -80,7 +80,7 @@ So a brute force algorithm for graph isomorphism, is exponential in the amount o
 \begin{algorithmic}[1]
 
 \Procedure{BruteForceWrap}{}
-    \State isomorphic = BruteForce(N-1, G) \Comment{calls upon brute force to find if isomorphic is true or false}
+    \State isomorphic = BruteForce(N-1) \Comment{calls upon brute force to find if isomorphic is true or false}
     \If{$isomorphic = TRUE$}
         \State write "Graphs are Isomorphic."
     \Else
@@ -101,7 +101,7 @@ So a brute force algorithm for graph isomorphism, is exponential in the amount o
     	\State result = CheckEdges($G$)
     \Else
     	\State i = 0
-	    \While{$i < N$ \& $result = FALSE$}				\Comment{Runs until you run out of vertexes or you find a match}
+	    \While{$i < N$ \& $result = TRUE$}				\Comment{Runs until you run out of vertexes or you find a match}
         	\If{$used[i] = FALSE$}
 	        	\State used[i] = TRUE 					\Comment{keeps track of what nodes you've visited during recursion}
 	        	\State perm[level] = i
@@ -126,7 +126,7 @@ So a brute force algorithm for graph isomorphism, is exponential in the amount o
     \State diff = TRUE
     \For{$x = 0$ to $N-1$}
         \State y = 0
-        \While{$y < N$ \& $diff = TRUE$}
+        \While{$y < N$ \& $diff = FALSE$}
         \If{$adj\_matrix1[x][y] \neq adj\_matrix2[perm[x]][perm[y]]$} 
         	\State diff = TRUE
         \EndIf
@@ -139,11 +139,130 @@ So a brute force algorithm for graph isomorphism, is exponential in the amount o
 
 \end{algorithmic}
 \end{algorithm}
+\newpage
+
+So this algorithm proved quite troublesome for me. I can only assume the original authors were erroneous and lax in their checking of it before their submission. The first thing the astute will notice is that, as written the code will not ever go into one of the loops. Fixing this proved quite troublesome for me, but eventually I was able to find the correct set of boolean values to parse the algorithm successfully. Secondly, the algorithm has no accounting for the 'base case' which is that the two graphs are identical. Finally, I decided to beef up the algorithm slightly, accounting for two of the six properties of Graph Isomorphism, the number of edges and the number of vertices. These were the easiest of the properties to implement and if I return to researching this topic, I will take more care to handle these cases.
+
+\begin{algorithm}
+\caption{Brute Force Wrap - Kevin Edit}
+\begin{algorithmic}[1]
+
+\Procedure{BruteForceWrap}{}
+    \State sanity = SanityCheck()
+    \If{$!sanity$}
+    	\State Exit
+    \EndIf
+    \State isomorphic = TwinCheck()
+    \If{$isomorphic$}
+    	\State The graph is isomorphic! Exit
+   	\EndIf
+   	\State isomorphic = BruteForce(N-1)
+    \If{$isomorphic = TRUE$}
+        \State write "Graphs are Isomorphic."
+    \Else
+    	\State write "Graphs are not Isomorphic."
+    \EndIf
+    \label{A2}
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Brute Force-Kevin Edit}
+\begin{algorithmic}[1]
+
+\Procedure{BruteForce}{$level$}       
+    \State result = FALSE 								
+    \If{$level = -1$}									
+    	\State result = CheckEdges($G$)
+    \Else
+    	\State i = 0
+	    \While{$i < N$ \& $result = FALSE$}				\Comment{Runs until you run out of vertexes or you find a match}
+        	\If{$used[i] = FALSE$}
+	        	\State used[i] = TRUE 					\Comment{keeps track of what nodes you've visited during recursion}
+	        	\State perm[level] = i
+	        	\State result = BruteForce($level - 1$)
+	        	\State used[i] = FALSE					\Comment{Resets state after we are done with it}
+	        \EndIf
+	        \State i = i + 1	
+	    \EndWhile
+	\EndIf
+	\State return result
+\label{BruteForce2}
+\EndProcedure
+
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Check Edges-Kevin Edit}
+\begin{algorithmic}[1]
+
+\Procedure{CheckEdges}{}     
+    \State same = TRUE
+    \For{$x = 0$ to $N-1$}
+        \State y = 0
+        \While{$y < N$ \& $same =$ TRUE}
+        \If{$adj\_matrix1[x][y] \neq adj\_matrix2[perm[x]][perm[y]]$} 
+        	\State same = FALSE
+        \EndIf
+        \State y = y + 1
+        \EndWhile
+    \EndFor
+    \State return diff
+\label{CheckEdge2}
+\EndProcedure
+
+\end{algorithmic}
+\end{algorithm}
 
 
 
+\begin{algorithm}
+\caption{TwinCheck}
+\begin{algorithmic}[1]
 
+\Procedure{TwinCheck}{}     
+    \State same = TRUE
+    \For{$x = 0$ to $N-1$}
+        \State y = 0
+        \While{$y < N$ \& $same =$ TRUE}
+        \If{$adj\_matrix1[x][y] \neq adj\_matrix2[x][y]$} 
+        	\State same = FALSE
+        \EndIf
+        \State y = y + 1
+        \EndWhile
+    \EndFor
+    \State return diff
+\label{CheckEdge3}
+\EndProcedure
 
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Sanity}
+\begin{algorithmic}[1]
+
+\Procedure{Sanity Check}{}     
+    \If{$vert1!=vert2$}
+    	\State return false
+    \ElsIf{$edge1!=edge2$}
+    	\State return false
+    \Else
+    	\State return true
+    \EndIf
+\label{SanityCheck1}
+\EndProcedure
+
+\end{algorithmic}
+\end{algorithm}
+\newpage
+
+Due to the exponential time of this brute force algorithm and the time I had remaining, I wasn't able to test very high node counts. Also I noticed when I ran my tests with a system clock check, they took far less time than when I tried to run it to just ensure the program worked. Is it possible that there was a background operation that caused my tests to 'complete' too quickly? I'm unsure and wish I had given myself more time to investigate this further. In  addition, it wasn't until late in my research I discovered the paper that I based my algorithm on. I had been looking at several other papers and resources for writing this report. Regardless, I discovered a DFS algorithm that would have been enjoyable to implement and test against the brute force method. Looking at the the research from Tolley, Franceschini, and Petty, it looks as though they were able to test the three algorithms to upto a hundred nodes, and the DFS algorithm crushed the other's they tried.~\cite{tolley}
+
+\section*{Closing Thoughts}
+Graph isomorphism has and will continue to be one of computer science's 
 
 
 \bibliography{bib}
