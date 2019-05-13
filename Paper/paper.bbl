@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{babal}
+László Babai.
+\newblock Graph isomorphism in quasipolynomial time.
+\newblock {\em eprint arXiv:1512.03547}, pages 1--89, 2015.
+
 \bibitem{derksen}
 Harm Derksen.
 \newblock The graph isomorphism problem and approximate categories.
